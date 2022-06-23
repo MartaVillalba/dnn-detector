@@ -1,5 +1,5 @@
 """
-    Common parameters
+    Common parameters.
 """
 
 # NN model names

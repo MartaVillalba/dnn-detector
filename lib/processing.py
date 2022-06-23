@@ -1,3 +1,7 @@
+"""
+    Functions to process and transform data.
+"""
+
 from scripts.params import K, T, M, N, constellation, codebook_path, subspaces_path
 import numpy as np
 import scipy
