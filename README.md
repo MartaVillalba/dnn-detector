@@ -7,6 +7,10 @@ Master in Data Science (UC-UIMP).
 
 ## Abstract
 
+Non-coherent wireless communication systems, in which channel estimation is not needed to decode the transmitted signal, have recently gained renewed interest due to their applications in 5G Ultra-Reliable Low-Latency Communications, or URLLC. In non-coherent multi-antenna communication systems (Multiple-Input Multiple-Output or MIMO), the transmitted signals are Grassmann manifold subspaces or points. A problem that comes with the application of this so-called non-coherent Grassmanian constellations is that the computational cost of the detector grows with the number of codewords K=2^(RT), where R is the code transmission rate in bits/s/Hz and T is the channel coherence time. 
+
+The objective of this project is to study and implement deep neural networks (DNNs) based detectors for non-coherent MIMO communications. Two neural network models are presented, on the one hand a multiclass classification model and, on the other hand, a regression model, and their optimal topology and parameters configuration are analyzed. Also, several preprocessing and post-processing methods are proposed and compared in order to improve neural network performance as a non-coherent MIMO communications detector. The development of deep detectors capable of learning from data will also enable their adaptation to other noise (non Gaussian) and channel (non Rayleigh) models in which the optimal detector is extremely complex or simply does not exist.
+
 ## Repository structure
 
 * **data**:
